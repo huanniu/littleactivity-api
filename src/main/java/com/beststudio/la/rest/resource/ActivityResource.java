@@ -41,12 +41,4 @@ public class ActivityResource {
         return activities;
     }
 
-    private String listActivities() {
-        String activities = "{\"activities\":[" +
-                "{\"title\": \"Tennis Club 1\", \"img\": \"http://besttennis.co.uk/wp-content/uploads/2018/03/BT99.jpg\"}," +
-                "{\"title\": \"Tennis Club 2\", \"img\": \"http://besttennis.co.uk/wp-content/uploads/2018/03/BT99.jpg\"}," +
-                "{\"title\": \"Tennis Club 3\", \"img\": \"http://besttennis.co.uk/wp-content/uploads/2018/03/BT99.jpg\"}" +
-                "]}";
-        return activities;
-    }
 }
